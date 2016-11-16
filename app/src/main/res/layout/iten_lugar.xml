@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+
+    <!--<ImageView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/logo_empresa"-->
+        <!--android:src="@drawable/ic_escola"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_launcher"
+        android:id="@+id/imageView"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/nomeLugar"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="NOME DO LUGAR"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            />
+
+        <TextView
+            android:id="@+id/nomeEndereco"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:text="Rua José da Costa Cisne Neto, 112 - Centro "
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/preto"
+            android:layout_below="@+id/nomeLugar" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

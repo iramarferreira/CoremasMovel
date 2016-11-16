@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF511A</color>
+    <color name="colorPrimaryDark">#DCDFDC</color>
+    <color name="colorAccent">#FF511A</color>
+    <color name="amarelo">#ffeb3b</color>
+    <color name="preto">#000000</color>
+
+    <color name="roxo">#673ab7</color>
+
+
+    <color name="cor1">#FF511A</color>
+    <color name="cor2">#DCDFDC</color>
+    <color name="cor3">#85FF1A</color>
+    <color name="cor4">#0025CC</color>
+    <color name="cor5">#092BB2</color>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_escola"
+            android:id="@+id/image_categoria" />
+
+        <TextView
+            android:id="@+id/text_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/escola"
+            android:textStyle="bold"
+            android:textColor="@color/cor1"
+            android:textSize="24dp"
+            android:layout_marginLeft="12sp"
+            android:layout_marginStart="12sp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/image_categoria"
+            android:layout_toEndOf="@+id/image_categoria" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_next_roxo"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
