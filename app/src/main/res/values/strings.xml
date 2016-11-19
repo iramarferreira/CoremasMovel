@@ -1,5 +1,20 @@
 <resources>
     <string name="app_name">Coremas Móvel</string>
     <string name="escola">Escola</string>
+    <string name="menu_contato">Contato</string>
+    <string name="menu_compartilhar">Compartilhar</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="menu_sair">Sair</string>
+    <string name="slogan">O melhor guia da cidade!</string>
+    <string name="versaoBD">Versão do banco de dados 1.0</string>
+    <string name="versaoApp">Versão do aplicativo 1.1</string>
+    <string name="bt_ok">Ok</string>
+    <string name="contato">Contato</string>
+    <string name="info_contato">Dúvidas, sugestões e informações:</string>
+    <string name="email">Email:</string>
+    <string name="myEmail">coremasmovel@gmail.com</string>
+    <string name="telefone">Telefone:</string>
+    <string name="myTelefone">(84) 99999-9999.</string>
+    <string name="link_app">www.coremasmovel.com</string>
 
 </resources>

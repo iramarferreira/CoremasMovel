@@ -23,7 +23,7 @@ public class ItensLugar {
     private String email;
 
 
-    public ItensLugar(int id, String bairro, String nome, String rua, String numero, String telefone1, String telefone2, String categoria, String favorito, String logo, String facebook, String whatApp, String instagram, String email) {
+    public ItensLugar(int id, String nome, String bairro, String rua, String numero, String telefone1, String telefone2, String categoria, String favorito, String logo, String facebook, String whatApp, String instagram, String email) {
         this.id = id;
         this.bairro = bairro;
         this.nome = nome;
